@@ -1,0 +1,10 @@
+.containerNav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.spacingNav{
+    height: 60px;
+}
