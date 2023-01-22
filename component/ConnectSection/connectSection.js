@@ -1,20 +1,20 @@
 import Link from "next/link";
 import { Col, Container, Row } from "react-bootstrap";
-
+import styles from './css/Connect.module.css'
 export default function ConnectSection() {
   return (
-    <Container>
-      <Row>
+    <Container fluid className={styles.containerSection}>
+      <Container className={styles.subcontainerSection}>
         <Row>
-          <h2>COMMUNITY-OWNED AND OPERATED</h2>
+          <h2 className={styles.h2Connect}>COMMUNITY-OWNED AND OPERATED</h2>
         </Row>
-        <Row>
-          <Col>
+        <Row className="mt-5 mb-3">
+          <Col className="">
             <Row>
-              <h3>Enter a Universe of Connected Services.</h3>
+              <h3 className={styles.h3Titule}>Enter a Universe of Connected Services.</h3>
             </Row>
-            <Row>
-              <p>
+            <Row className="mt-5 mb-5">
+              <p className={styles.pConnect}>
                 Cronos apps and services connect using IBC, the Inter-Blockchain
                 Communication protocol. This innovation enables you to freely
                 exchange assets and data across sovereign.{" "}
@@ -26,10 +26,10 @@ export default function ConnectSection() {
             </Row>
           </Col>
 
-          <Col>
-            <Row>
+          <Col className={"text-end " + styles.numberDescription }>
+            <Row className={styles.descriptionblock}>
               <Row>
-                <h3>
+                <h3 className={styles.h3Titule}>
                   265 <span>+</span>
                 </h3>
               </Row>
@@ -37,9 +37,9 @@ export default function ConnectSection() {
                 <p>Apps & services</p>
               </Row>
             </Row>
-            <Row>
+            <Row className={styles.descriptionblock}>
               <Row>
-                <h3>
+                <h3 className={styles.h3Titule}>
                   $36B<span>+</span>
                 </h3>
               </Row>
@@ -49,7 +49,7 @@ export default function ConnectSection() {
             </Row>
           </Col>
         </Row>
-      </Row>
+      </Container>
     </Container>
   );
 }

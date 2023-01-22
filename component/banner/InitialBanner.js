@@ -34,7 +34,7 @@ export default function InitialBanner() {
             </h1>
           </Row>
           <Row className="pb-5">
-            <p>
+            <p className={styles.pcrono}>
               Cronos is an ever expanding ecosystem of connected <br /> apps and
               services, built for a decentralized future.
             </p>
