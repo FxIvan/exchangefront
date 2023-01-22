@@ -48,3 +48,11 @@
     opacity: 0.9;
     object-fit: cover;
 }
+
+.h2crono{
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.pcrono{
+    color: rgba(255, 255, 255, 0.6);;
+}
