@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Col, Container, Row } from "react-bootstrap";
-import styles from './css/Connect.module.css'
+import styles from "./css/Connect.module.css";
 export default function ConnectSection() {
   return (
     <Container fluid className={styles.containerSection}>
@@ -11,7 +11,9 @@ export default function ConnectSection() {
         <Row className="mt-5 mb-3">
           <Col className="">
             <Row>
-              <h3 className={styles.h3Titule}>Enter a Universe of Connected Services.</h3>
+              <h3 className={styles.h3Titule}>
+                Enter a Universe of Connected Services.
+              </h3>
             </Row>
             <Row className="mt-5 mb-5">
               <p className={styles.pConnect}>
@@ -21,12 +23,18 @@ export default function ConnectSection() {
               </p>
             </Row>
             <Row>
-                <Col><Link href="/#">Learn More</Link></Col>
-                <Col><Link href="/#">Explore Tokens <span>&gt;</span></Link></Col>
+              <Col>
+                <Link href="/#" className={styles.learnmore}>Learn More</Link>
+              </Col>
+              <Col>
+                <Link href="/#" className={styles.exploretokens}>
+                  Explore Tokens <span>&gt;</span>
+                </Link>
+              </Col>
             </Row>
           </Col>
 
-          <Col className={"text-end " + styles.numberDescription }>
+          <Col className={"text-end " + styles.numberDescription}>
             <Row className={styles.descriptionblock}>
               <Row>
                 <h3 className={styles.h3Titule}>

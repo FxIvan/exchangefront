@@ -41,3 +41,19 @@
    color: white;
    font-size: 1.2em;
 }
+
+.learnmore{
+    background-color: gray;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    border-radius: 5px;
+    color: white;
+    font-weight: bolder;
+}
+
+.exploretokens{
+    background-color: #68b61f;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    border-radius: 5px;
+    color: white;
+    font-weight: bolder;
+}
