@@ -34,7 +34,7 @@ export default function ConnectSection() {
                 </h3>
               </Row>
               <Row>
-                <p>Apps & services</p>
+                <p className={styles.appserviceassets}>Apps & services</p>
               </Row>
             </Row>
             <Row className={styles.descriptionblock}>
@@ -44,7 +44,7 @@ export default function ConnectSection() {
                 </h3>
               </Row>
               <Row>
-                <p>Digital assets</p>
+                <p className={styles.appserviceassets}>Digital assets</p>
               </Row>
             </Row>
           </Col>

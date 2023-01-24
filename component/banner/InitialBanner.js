@@ -14,6 +14,7 @@ export default function InitialBanner() {
         width={100}
         height={100}
         className={styles.imghedron}
+        layout="fixed"
       />
 
       <Image
